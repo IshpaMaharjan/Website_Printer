@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+li,a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+.div-class1{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 95px;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    align-items: baseline;
+     margin-right: 100px;
+}
+nav-link{
+    list-style: none;
+}
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.img1{
+    float:right;
+    width: 30%;
+    margin-left: 15px;
+}
+.div1{
+    position:absolute;
+    width: 80%;
+   margin-left: 150px;
+    background-color:wheat;
+    padding: 30px;
+    font-weight:400;
+    font-size: medium;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-style: italic;
+}
+.img2{
+    float:left;
+    width: 30%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.div2{
+    position: absolute;
+    width: 80%;
+    margin-left: 40px;
+    background-color:wheat;
+    padding: 30px;
+    font-weight:400;
+    font-size: medium;
+    margin-top: 25%; 
+    border-radius: 50px;  
+    cursor: pointer; 
+    font-style: italic;
+}
+.img3{
+    float:right;
+    width: 30%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.div3{
+    position: absolute;
+    width: 80%;
+   margin-left: 150px;
+    background-color:wheat;
+    padding: 30px;
+    font-weight:400;
+    font-size: medium;
+    margin-top: 45%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-style: italic;
+}
+.img4{
+    float:left;
+    width: 30%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.img5{
+    float:right;
+    width: 30%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.div4{
+    position: absolute;
+    width: 80%;
+   margin-left: 40px;
+    background-color:wheat;
+    padding: 30px;
+    font-weight:400;
+    font-size: medium;
+    margin-top: 68%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-style: italic;
+}
+.div5{
+    position: absolute;
+    width: 80%;
+   margin-left: 40px;
+    background-color:white;
+    padding: 30px;
+    font-weight:400;
+    font-size: medium;
+    margin-top: 90%;
+    border-radius: 50px;
+    font-style: italic;
+}
+.f{
+    margin-top: 100%;
+}

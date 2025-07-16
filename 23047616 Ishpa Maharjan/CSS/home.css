@@ -1,0 +1,58 @@
+.t1
+{
+ margin-left: auto;
+ margin-right: auto;
+ height:85%;
+ width: 65%;
+ box-sizing: border-box;
+ }
+
+ .Home
+ {
+ color:black(60,22,144);
+ padding: 20px;
+ background-color:white;
+ text-decoration: underline;
+ cursor: pointer;
+ }
+
+ .Home.hover
+ {
+ opacity: 0.8;
+ }
+
+ .Product
+ {
+ color:rgb(48, 158, 85);
+ padding: 20px;
+ background-color:rgb(124, 133, 44);
+ text-decoration: underline;
+ cursor: pointer;
+ }
+
+ .Blogs
+ {
+ color:rgb(13, 127, 131);
+ padding: 20px;
+ background-color:white;
+ text-decoration: underline;
+ cursor: pointer;
+ }
+
+ .Research
+ {
+ color:rgb(88, 3, 36);
+ padding: 20px;
+ background-color:beige;
+ text-decoration: underline;
+ cursor: pointer;
+ }
+
+ .Aboutus
+ {
+ color:rgb(88, 3, 36);
+ padding: 20px;
+ background-color:beige;
+ text-decoration: underline;
+ cursor: pointer;
+ }

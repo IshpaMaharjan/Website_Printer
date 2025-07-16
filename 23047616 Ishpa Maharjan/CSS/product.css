@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+li,a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+.div-class1{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 95px;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    align-items: baseline;
+     margin-right: 100px;
+}
+nav-link{
+    list-style: none;
+}
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+.banner{
+    padding: 20px;
+}
+
+
+.banner h4{
+    font-size: 25px;
+    font-weight: 300;
+    color:#0b3c87;
+}
+
+
+.banner h2{
+    font-size: 60px;
+    color:#0b3c87;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.banner p{
+    font-size: 30px;
+    padding-top: 10px;
+    color:#0b3c87;
+}
+
+
+h2{
+    font-size: 80px;
+    color: #0b3c87;
+}
+
+
+p{
+    font-size: 30px;
+    color: black;
+}
+
+
+.products{
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+
+.cards{
+    padding: 30px 0;
+    width:23px;
+    min-width: 250px;
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 30px 30px 30px rgb(80, 87, 93);
+    margin: 15px 0;
+    position: relative;
+}
+
+.cards:hover{
+    box-shadow: 20px 20px 30px #7BB6B2;
+}
+
+
+.cards > img{
+    width:210px;
+    border-radius: 20px;
+}
+.cards .rating img{
+    width: 20px;
+}
+.cards .cart img{
+    width:30px;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="research.css">
+    
+    <!-- Using Internal CSS -->
+    <style>
+        .white {
+            background-color: #81D6EB;
+            border: 1px solid
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .rectangle {
+            padding: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>  
+    <div class="div-class1">
+        <img class="logo" src="img/logo1.jpg" alt="logo">
+        <nav>
+            <ul class="nav-link">
+                <li><a href="home.html"> Home page</a></li>
+                <li><a href="product.html" target="_blank"> Product</a></li>
+                <li><a href="blog.html" target="_blank"> Blog</a></li>
+                <li><a href="aboutus.html"target="_blank"> About us </a></li>
+                <li><a href="research.html"target="_blank"> Research </a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="div6">
+
+    <!-- Making class for CSS,
+    Section used -->
+    <section class=" white rectangle">
+        <h2 class="italic">References Our Group Used</h2>
+        <!-- Writing content -->
+        <p class="text">First image is our home page and Second image is referenced page. <br>
+            If you compare the first and second figure you can see that navigation bar and logo location are similar to
+            each other. <br>
+            Extra printer image was added below logo with some text to make it unique, Creative logo was assigned at
+            logo location, extra search bar
+            is at top right corner of home page, Idea was taken but not copied. This home page was made in own style. <br>
+            The link to crazy egg website is https://www.crazyegg.com/ . <br>
+            <span class="dots">...</span>
+            <!-- Making class for js use -->
+            <span class="moreText"> Product page was referenced from HP Printers obviously
+                for research purpose.By comparing third and fourth image , you can see that slider is excluded for different design,
+                rating added and prices are added to make it convenient. <br>
+                Third image is our group and Fourth image
+                is researched.The link to hp website is https://www.hp.com/us-en/shop/cat/printers . <br>
+                Fifth image is our about us page and sixth image is referenced image. <br>
+                If we compare both images putting images in start of image was done to make styling better and putting
+                images of website developer to give credits was unique, Instead of
+                taking email feedback form was put to make it different. <br>
+                The link of epson website is
+                https://epson.com/about-us . <br>
+                Seventh image is our research page and Eighth image is
+                referenced page. <br>
+                By comparing seventh and eighth image we can see that images are compared in both
+                pages, Text and images are put in seperate places for change in style. <br>
+                The link to amazon website is https://www.amazon.in/Printers/b?ie=UTF8&node=1375 . <br>
+                Ninth and Tenth image is our blog page and referenced page. <br>
+                In our blog page we made seperate boxes for details with similar way of arranging images beside information,
+                Find out more javascript was not added to add uniqueness.The link to pixartprinting is https://www.pixartprinting.com/ . <br>
+            </span>
+        </p>
+        <!-- Making button Read More button and giving it class normal -->
+        <button class="normal">Read More</button>
+        </p>
+    </section>
+
+    <!-- Linking html with specified js file -->
+    <script src="./coursework.js"></script>
+
+    <!-- Inserting images side by side with help of section tag,
+    Adjusting images with margin, width and height-->
+    <section style="margin-left: 6%;">
+
+        <!-- Using Inline CSS -->
+        <img src="img/home.jpg" alt="" style="width: 45%; margin-left: 1%;">
+
+        <img src="img/Crazy egg.jpg" alt="" style="width: 45%;height: 300px;">
+
+        <img src="img/product.png" alt="" style="width: 45%;">
+
+        <img src="img/HP.png" alt="" style="width: 45%;height: 600px;">
+
+        <img src="img/about us.png" alt="" style="width: 45%;">
+
+        <img src="img/epson.png" alt="" style="width: 45%;">
+
+        <img src="img/Research.png" alt="" style="width: 45%;height: 450px;">
+
+        <img src="img/amazon.png" alt="" style="width: 45%; height: 450px">
+
+        <img src="img/blog.png" alt="" style="width: 45%;">
+
+        <img src="img/pixartprinting.png" alt="" style="width: 45%; height: 500px;">
+        
+    </section>
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Top</button>
+
+    <!--Using javascript-->
+    <script>
+        var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        };
+    
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        const readMore = document.querySelector('.normal');
+const text = document.querySelector('.text');
+
+readMore.addEventListener('click',(e)=>
+{
+    text.classList.toggle('show-more');
+
+    if(readMore.innerText === 'Read More')
+    {
+        readMore.innerText = 'Read Less';
+    }
+    else
+    {
+        readMore.innerText = 'Read More';
+    }
+}) 
+    </script>
+
+
+</body>
+
+</html>

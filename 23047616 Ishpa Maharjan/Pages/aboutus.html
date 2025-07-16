@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutus.css">
+    <!--link for css-->
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="div-class1">
+        <img class="logo" src="img/logo1.jpg" alt="logo">
+        <nav>
+            <ul class="nav-link">
+                <li><a href="home.html"> Home page</a></li>
+                <li><a href="product.html" target="_blank"> Product</a></li>
+                <li><a href="blog.html" target="_blank"> Blog</a></li>
+                <li><a href="aboutus.html"target="_blank"> About us </a></li>
+                <li><a href="research.html"target="_blank"> Research </a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="div6">
+            <!--creating a div for image and paragraph-->
+            <img class="img6" src="img/img1.jpg">
+        <h1> About US</h1>
+        <!--creating header tag-->
+        <p>
+            Propprinter is a go-to platform for exploring different and diverse range of printers,
+            We provide legit reviews, buying guidance.Navigate through our webpage and Discover.We
+            recommend which one is the best to buy. We take  all the products reviews from different sites so they can be easily comparable.
+            All our rating are based on customers rating<br>
+
+
+            <!--using a paragraph tag for class="div1"-->
+        </p><br>
+        <h1 > How do we give rating for the product</h1>
+        <p> We provide ratings on the basis of our coustomer feedbacks. We take products from official websites and compare them
+            on basis of their price and capability.
+         </p><br>
+         <h1> Meet Our team</h1>
+         <!-- using header tag -->
+    </div>
+        <div class="logo1">
+            <!-- Creating a div for image-->
+            <img src="img/team image1.png" alt="logo" width="200px">
+            <p> Ishpa Maharjan </p>
+            <p> 19 </p>
+            <p> BSc(HONS) IN COMPUTING</p>
+            <p> Nepal, KTM </p>
+        </div>
+        
+        <div class="logo2">
+            <!-- Creating a div for image-->
+            <img src="img/team image2.png" alt="logo2" width="200px">
+            <p> Ashrey Koirala</p>
+            <p> 20</p>
+            <p> BSc(HONS) IN COMPUTING</p>
+            <p> Nepal, KTM </p>
+        </div>
+        <div class="logo3">
+            <!-- Creating a div for image-->
+            <img src="img/team image3.png" alt="logo2" width="200px">
+            <p> Amin Tamang</p>
+            <p> 20</p>
+            <p> BSc(HONS) IN COMPUTING</p>
+            <p> Nepal, KTM </p>
+        </div>
+        <div class="logo4">
+            <!-- Creating a div for image-->
+            <img src="img/team image4.png" alt="logo2" width="200px">
+            <p> Salin gurung </p>
+            <p> 19</p>
+            <p> BSc(HONS) IN COMPUTING</p>
+            <p> Nepal, KTM </p>
+        </div>
+        <!--closing tag for a div-->
+
+
+        <div class="divclass2">
+            <!--creating a division for a form -->
+        <form name="Feedbackform" onsubmit="validateForm()">
+            <!--using form tag-->
+            <table align="center" class="feedbackform"  width="30%">
+                <th><form >
+                    <h1> Website Feedback Form</h1>
+                    <h1 class="h">Drop Us Your Feedback</h1>
+            
+                        <p> First name: <input type="text" name="firstname"></p><br>
+                        <p> Last name: <input type="text" name="lastname"></p><br>
+                        <p>Gender: <input type="radio" name="gender" value="male" checked> male
+                      <input type="radio" name="Gender" value="femake">Female</p><br>
+                        <p>Is this the first time you have visited the website?<br>
+                            <input type="radio" name="yes" value="yes">yes<br><input type="radio" 
+                        name="no" value="no">No 
+                         </p><br>
+                        <p>Did you find what you need?<br>
+                         <input type="radio" name="yes" value="Yes,all of it">Yes,all of it<br>
+                        <input type="radio" name="yes" value="Yes,some of it ">Yes,some of it<br>
+                        <input type="radio" name="No" value="No,none of it">No,none of it<br><br></p>
+                        <p>What is the primary reason you have come to the site ?</b><br>
+                        <textarea name="message" rows="10" cols="30" placeholder="write a message"></textarea>  </p> 
+                        <button class="button1"> Send feedback</button>                
+                       
+                        <p> Thank for sending us your feedbacks,ideas or appreciation. We will transfer the message to the team.
+                            Thank you for making Propprinter better. </p>
+                    </form></th>
+                </tr>
+                </table>
+            </div>
+<!-- javascript for form validation-->   
+<script>
+    function validateForm(){
+        var fname = document.forms["Feedbackform"]["firstname"].value;
+        var lname = document.forms["Feedbackform"]["lastname"].value;
+        var message = document.forms["Feedbackform"]["message"].value;
+        
+        if (fname == "" || lname == "" ||  message =="") {
+            alert("Empty fields found. please fill the form.");
+        }
+        else{
+            alert("Thank you for the feedback.");
+        }
+    }
+</script>
+
+
+<footer style="background-color: aqua; width:100%; height:125px;" class="f" >
+    <h3 align="center">Proprinter</h3>
+    <p align="center">Contact us<br>9849211107</p>
+    <p align="center">&copy;Islington college</p>
+</footer>
+
+
+        
+</body>
+</html>
